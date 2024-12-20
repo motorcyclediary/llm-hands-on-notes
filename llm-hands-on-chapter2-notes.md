@@ -2,7 +2,9 @@
 
 #### What's the big picture?
 
-The machine learning models are ultimately mathemamtical models and require numerical representations of data to execute their transforms.
+Machine learning is ultimately about executing mathemamtical models that require numerical representations of data to execute their transforms.
+
+Where the data is text as in the case of Large Languate Models, that means:
 
 1. Splitting text into _tokens_ and given these tokens a numerical form is _tokenization_.
 2. Transforming static, scalar numeric representations of into higher dimensional vectors that contain concepts of meaning and similarity is _embedding_.
@@ -102,9 +104,9 @@ We now need to choose one of appoaches to generate training data
 
    - b. **_CBOW (Continuous Bag of Words)_**: Interestingly the text doesn't cover this approach. Here the centre word is used to predict the surrounding words. So using our simple example we would only yield one row for the given window size:
 
-| Centre | Neighbour   | Target |
-| ------ | ----------- | ------ |
-| over   | [from, the] | 1      |
+      | Centre | Neighbour   | Target |
+      | ------ | ----------- | ------ |
+      | over   | [from, the] | 1      |
 
 3. Negative samples of non-occuring combinations are generated to enable the model to accurately distinguish the correct neighbours (context) for any word from non-occuring neighbours. This is referred to as _contrastive estimation_
 
