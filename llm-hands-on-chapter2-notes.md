@@ -7,7 +7,7 @@ Machine learning is ultimately about executing mathemamtical models which requir
 Where the data is text as in the case of Large Languate Models, that means:
 
 1. Splitting text into _tokens_ and given these tokens a numerical form is _tokenization_.
-2. Transforming static, scalar numeric representations of into higher dimensional vectors that contain concepts of meaning and similarity is _embedding_.
+2. Transforming static, scalar numeric representations of tokens into a higher dimensional vector space that geometrically expresses concepts of meaning and similarity is _embedding_.
 
 ### STEP 1 - Tokenization of text
 
