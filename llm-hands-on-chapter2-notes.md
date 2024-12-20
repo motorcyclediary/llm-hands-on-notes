@@ -2,7 +2,7 @@
 
 #### What's the big picture?
 
-Machine learning is ultimately about executing mathemamtical models that require numerical representations of data to execute their transforms.
+Machine learning is ultimately about executing mathemamtical models which require numerical representations of data.
 
 Where the data is text as in the case of Large Languate Models, that means:
 
