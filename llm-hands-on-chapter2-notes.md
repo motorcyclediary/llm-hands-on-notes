@@ -1,6 +1,6 @@
 ## Chapter 2 - Key intuitions
 
-#### What is the big picture?
+#### What's the big picture?
 
 The machine learning models are ultimately mathemamtical models and require numerical representations of data to execute their transforms.
 
